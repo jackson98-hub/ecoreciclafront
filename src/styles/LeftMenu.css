@@ -1,0 +1,47 @@
+/* LeftMenu.css */
+
+.sidebar-heading {
+    font-size: 24px;
+    color: black;
+    padding: 20px 0;
+  }
+  
+  .user-name {
+    font-size: 18px;
+    color: black;
+  }
+  
+  .sidebar-item {
+    margin: 20px 0;
+  }
+  
+  .sidebar-item a {
+    color: darkgrey;
+    font-size: 18px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+  }
+  
+  .sidebar-item a:hover {
+    color: black;
+  }
+  
+  .sidebar-item .fa {
+    margin-right: 10px;
+    color: darkgrey;
+  }
+  
+  .sidebar-item a:hover .fa {
+    color: black;
+  }
+  
+  @media (max-width: 767.98px) {
+    /* Eliminamos la regla #sidebar { display: none; } */
+    
+    .sidebar-heading,
+    .sidebar-item {
+      text-align: center;
+    }
+  }
+  

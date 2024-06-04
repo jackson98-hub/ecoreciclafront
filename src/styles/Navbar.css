@@ -1,0 +1,16 @@
+/* Navbar.css */
+.navbar-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Esto cambia la disposición a horizontal */
+  }
+  
+  .navbar-list li {
+    margin-right: 20px; /* Espacio entre elementos de la lista */
+  }
+  
+  .navbar-list li:last-child {
+    margin-right: 0; /* Elimina el margen del último elemento de la lista */
+  }
+  

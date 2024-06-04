@@ -1,0 +1,20 @@
+/* Login.css */
+
+/* Ancho personalizado para la tarjeta del formulario */
+.custom-card {
+    width: 100%;
+    max-width: 500px; /* Ajusta este valor según tus necesidades */
+  }
+  
+  /* Ajustes de los campos del formulario */
+  .custom-form-control {
+    font-size: 1rem; /* Ajusta el tamaño del texto si es necesario */
+    padding: 10px; /* Ajusta el padding para mayor comodidad */
+  }
+  
+  /* Ajustes para los botones */
+  .custom-btn {
+    font-size: 1rem; /* Ajusta el tamaño del texto del botón */
+    padding: 10px; /* Ajusta el padding del botón */
+  }
+  

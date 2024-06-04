@@ -1,0 +1,23 @@
+/* TopMenu.css */
+
+/* Estilos para la hamburguesa en dispositivos móviles */
+@media (max-width: 767.98px) {
+    .navbar .container {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .navbar .container .d-flex {
+      width: 100%;
+      justify-content: space-between;
+    }
+  
+    .navbar .container .d-md-none {
+      width: 100%;
+      text-align: left;
+    }
+  
+    .navbar-collapse {
+      width: 100%;
+    }
+  }
